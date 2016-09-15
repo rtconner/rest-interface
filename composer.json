@@ -1,0 +1,23 @@
+{
+  "name": "conner/rest-interface",
+  "description": "Standard Interface for all PHP Rest Clients",
+  "license":"MIT",
+  "keywords":["rest"],
+  "authors": [
+    {
+      "name": "Robert Conner",
+      "homepage": "http://smartersoftware.net",
+      "email": "rtconner@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "guzzlehttp/guzzle": "~6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Conner\\RestInterface\\": "src"
+    }
+  },
+  "minimum-stability": "stable"
+}
